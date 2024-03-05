@@ -1,0 +1,5 @@
+Do not wrap equal sign with white spaces! 
+
+TITLE=Magic Gloves
+Parameter.Hint.slow=13
+Parameter.Hint.weak=6

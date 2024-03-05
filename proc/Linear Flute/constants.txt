@@ -1,0 +1,6 @@
+Do not wrap equal sign with white spaces! 
+
+TITLE=Linear Haptic Flute
+Parameter.Hint.hold_time=370
+Parameter.Hint.slow=13
+Parameter.Hint.weak=0.5

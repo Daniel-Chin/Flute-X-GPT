@@ -1,0 +1,5 @@
+Do not wrap equal sign with white spaces! 
+
+TITLE=C-Ring Haptic Flute
+Parameter.Hint.slow=20
+Parameter.Hint.weak=6
