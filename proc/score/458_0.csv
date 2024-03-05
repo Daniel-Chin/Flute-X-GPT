@@ -1,0 +1,17 @@
+//,Define constants,,,,,,
+prelude,0,// how many seconds after bgm plays should Movement start? This makes space for the leading beats. ,,,,,
+default_transpose,0,,,,,,
+measure_time,1.3043478260869565,,,,,,
+metronome_per_measure,2,,,,,,
+//,Declare objects,,,,,,
+class,pitch,velocity,note on,note off,"beam count, negative means group termination, slash means no stem (whole note)",dotted?,hollow?
+note,-1,0,0.0,0.22608695652173913,-1,,
+note,69,60,0.32608695652173914,0.8782608695652174,0,,
+note,71,60,0.9782608695652174,1.2043478260869565,-1,,
+note,71,60,1.3043478260869565,2.508695652173913,0,,t
+note,71,60,2.608695652173913,3.8130434782608695,0,,t
+note,71,60,3.9130434782608696,5.1173913043478265,0,,t
+note,71,60,5.217391304347826,6.421739130434783,0,,t
+note,71,60,6.521739130434783,7.72608695652174,0,,t
+note,71,60,7.826086956521739,8.052173913043479,-1,,
+note,-1,0,8.152173913043478,9.030434782608696,0,t,
