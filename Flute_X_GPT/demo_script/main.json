@@ -1,0 +1,388 @@
+[
+    {
+        "role": "assistant",
+        "content": "\"\"\"I shall welcome __NAME__ and wait for their response.\"\"\"\nWelcome to today's music training, __NAME__. I'm Flute X GPT, your music teacher.",
+        "function_call": {
+            "name": "wait",
+            "arguments": "{}"
+        }
+    },
+    {
+        "role": "user",
+        "content": "__NAME__ says: \"Hello! I was listening to Salley Gardens just now. Can we practice that?\""
+    },
+    {
+        "role": "assistant",
+        "content": "\"\"\"I shall load the song and ask __NAME__ if they wish to hear the reference audio.\"\"\"\nAbsolutely, __NAME__. 'Salley Gardens' is a great choice. Let's load that song into the Music X Machine.",
+        "function_call": {
+            "name": "load_song",
+            "arguments": "{\n  \"song_title\": \"salley gardens\"\n}"
+        }
+    },
+    {
+        "role": "assistant",
+        "content": "Would you like to listen to the reference audio of 'Salley Gardens' before we start practicing? It could be a helpful refresher.",
+        "function_call": {
+            "name": "wait",
+            "arguments": "{}"
+        }
+    },
+    {
+        "role": "user",
+        "content": "__NAME__ says: \"No need.\""
+    },
+    {
+        "role": "assistant",
+        "content": "\"\"\"We can begin practicing. I don't know how good __NAME__ is at playing this song yet, so I shall start with a versatile haptic mode that allows student freedom. Also, this is the first time __NAME__ uses a fixed-tempo mode today, so I shall briefly explain what __NAME__ should do in this mode.\"\"\"\nSure. Let's begin with the fixed-tempo adaptive mode, just to see what you can do. Please try to play the song following the playhead and the metronome. Whenever you make a mistake, your haptic gloves will fix them.",
+        "function_call": {
+            "name": "set_haptic_mode",
+            "arguments": "{\n  \"mode\": \"fixed-tempo adaptive\"\n}"
+        }
+    },
+    {
+        "role": "assistant",
+        "content": "\"\"\"I shall also turn on the visual KR feedback and briefly explain it.\"\"\"\nI'm turning on visual KR feedback. Your performance will be reflected on the score in real time.",
+        "function_call": {
+            "name": "set_visual_feedback",
+            "arguments": "{\n  \"state\": true\n}"
+        }
+    },
+    {
+        "role": "assistant",
+        "content": null,
+        "function_call": {
+            "name": "wait",
+            "arguments": "{}"
+        }
+    },
+    {
+        "role": "user",
+        "content": "__NAME__ says: \"Understood.\""
+    },
+    {
+        "role": "assistant",
+        "content": "\"\"\"I shall start a Practice Session.\"\"\"\nGreat. Let's start the Practice Session.",
+        "function_call": {
+            "name": "start_session",
+            "arguments": "{}"
+        }
+    },
+    {
+        "role": "assistant",
+        "content": "\"\"\"I shall wait for __NAME__'s performance.\"\"\"",
+        "function_call": {
+            "name": "wait",
+            "arguments": "{}"
+        }
+    },
+    {
+        "role": "user",
+        "content": "__NAME__ just played bar 1 to bar 4. Disregarding note timing, 4-bar note accuracy is 23%. Considering note timing, 4-bar note accuracy is 14%. There are 12 more bars ahead."
+    },
+    {
+        "role": "assistant",
+        "content": "\"\"\"I shall interrupt the Session and lower the tempo to make the song easier for __NAME__.\"\"\"\nIt seems like the song is a bit challenging at this tempo. Let's slow it down a bit to give you more time to think and react. We'll play it at 70% of the original tempo.",
+        "function_call": {
+            "name": "interrupt_session",
+            "arguments": "{}"
+        }
+    },
+    {
+        "role": "assistant",
+        "content": null,
+        "function_call": {
+            "name": "modify_tempo",
+            "arguments": "{\n  \"tempo_multiplier\": 70\n}"
+        }
+    },
+    {
+        "role": "assistant",
+        "content": "Now, let's focus just on the first 4 bars. We'll practice this segment until you're comfortable with it.",
+        "function_call": {
+            "name": "select_segment",
+            "arguments": "{\n  \"segment_begin\": 1,\n  \"segment_end\": 4\n}"
+        }
+    },
+    {
+        "role": "assistant",
+        "content": "Let's hear the reference audio of the current segment.",
+        "function_call": {
+            "name": "play_reference_audio",
+            "arguments": "{}"
+        }
+    },
+    {
+        "role": "assistant",
+        "content": null,
+        "function_call": {
+            "name": "wait",
+            "arguments": "{}"
+        }
+    },
+    {
+        "role": "user",
+        "content": "The reference audio has finished playing."
+    },
+    {
+        "role": "assistant",
+        "content": "Are you ready for another go?",
+        "function_call": {
+            "name": "wait",
+            "arguments": "{}"
+        }
+    },
+    {
+        "role": "user",
+        "content": "__NAME__ says: \"Yes. Let's go.\""
+    },
+    {
+        "role": "assistant",
+        "content": "\"\"\"I shall start a Practice Session.\"\"\"\nAlright, let's start the Practice Session again. You'll have more time now, so take it easy.",
+        "function_call": {
+            "name": "start_session",
+            "arguments": "{}"
+        }
+    },
+    {
+        "role": "assistant",
+        "content": "\"\"\"I shall wait for __NAME__'s performance.\"\"\"",
+        "function_call": {
+            "name": "wait",
+            "arguments": "{}"
+        }
+    },
+    {
+        "role": "user",
+        "content": "In the middle of the Practice Session, __NAME__ says: \"Wait, really? I don't want to slow down though. It's not exciting.\""
+    },
+    {
+        "role": "assistant",
+        "content": "\"\"\"__NAME__ is speaking during the Session, meaning they want to stop the interactions with Music X Machine. I shall stop the Session for __NAME__.\"\"\"\n",
+        "function_call": {
+            "name": "interrupt_session",
+            "arguments": "{}"
+        }
+    },
+    {
+        "role": "assistant",
+        "content": "\"\"\"__NAME__ wants to speed up. I shall explain the educational principle behind slowing down when practicing new songs.\"\"\"\nI understand that you want to keep the excitement, __NAME__. However, when practicing a new song, it's important to slow down initially. This allows you to focus on each note and get the fingering right. Once you're comfortable with the notes, we can gradually increase the tempo back up. Trust me, the excitement will return as your performance improves. Shall we continue with the slower tempo?",
+        "function_call": {
+            "name": "wait",
+            "arguments": "{}"
+        }
+    },
+    {
+        "role": "user",
+        "content": "__NAME__ says: \"I see. Let's start slowly then.\""
+    },
+    {
+        "role": "assistant",
+        "content": "\"\"\"I shall start a Practice Session.\"\"\"\nGreat understanding, __NAME__. Let's practice the first 4 bars at the slower tempo. Remember, accuracy first, speed later.",
+        "function_call": {
+            "name": "start_session",
+            "arguments": "{}"
+        }
+    },
+    {
+        "role": "assistant",
+        "content": "\"\"\"I shall wait for __NAME__'s performance.\"\"\"",
+        "function_call": {
+            "name": "wait",
+            "arguments": "{}"
+        }
+    },
+    {
+        "role": "user",
+        "content": "__NAME__ just played bar 1 to bar 4. Disregarding note timing, 4-bar note accuracy is 100%. Considering note timing, 4-bar note accuracy is 16%. __NAME__ has finished the current selected segment, so the Practice Session has stopped."
+    },
+    {
+        "role": "assistant",
+        "content": "\"\"\"__NAME__ has greatly improved the pitch accuracy, but the timing is still off. I shall explain to __NAME__ the importance of timing, and suggest using the force mode, which provides stronger haptic gui__NAME__ce of timing.\"\"\"\nExcellent work on the notes, __NAME__! Every note is correct now in terms of pitch. However, it seems that the timing still needs some work. \n\nTo help with this, let's use the force mode. This mode will guide your fingers strictly according to the song's rhythm. It's like __NAME__cing with a leed __NAME__cer. You just follow the lead. Let's give it a try, shall we?",
+        "function_call": {
+            "name": "set_haptic_mode",
+            "arguments": "{\n  \"mode\": \"force\"\n}"
+        }
+    },
+    {
+        "role": "assistant",
+        "content": null,
+        "function_call": {
+            "name": "wait",
+            "arguments": "{}"
+        }
+    },
+    {
+        "role": "user",
+        "content": "__NAME__ says: \"Sure.\""
+    },
+    {
+        "role": "assistant",
+        "content": null,
+        "function_call": {
+            "name": "start_session",
+            "arguments": "{}"
+        }
+    },
+    {
+        "role": "assistant",
+        "content": "\"\"\"I shall wait for __NAME__'s performance.\"\"\"",
+        "function_call": {
+            "name": "wait",
+            "arguments": "{}"
+        }
+    },
+    {
+        "role": "user",
+        "content": "__NAME__ just played bar 1 to bar 4. Disregarding note timing, 4-bar note accuracy is 100%. Considering note timing, 4-bar note accuracy is 89%. __NAME__ has finished the current selected segment, so the Practice Session has stopped."
+    },
+    {
+        "role": "assistant",
+        "content": "\"\"\"__NAME__ has made great progress. I shall praise __NAME__ and then suggest moving on.\"\"\"\nThat was fantastic, __NAME__! Your timing has improved significantly, and you're getting the notes perfectly. Now, let's move on to the next 4 bars of the song.",
+        "function_call": {
+            "name": "select_segment",
+            "arguments": "{\n  \"segment_begin\": 5,\n  \"segment_end\": 8\n}"
+        },
+        "hint": "__NAME__ says: \"That was good!\""
+    },
+    {
+        "skip_during_script": true,
+        "role": "user",
+        "content": "While you were saying the last response, __NAME__ said: \"That was good!\" and you finished your response."
+    },
+    {
+        "role": "assistant",
+        "content": "\"\"\"We are currently in the force mode. The force mode is good for learning the correct timing and getting used to a new segment of the song, but may squander the sight-playing training opportunity of the new segment, because the force mode doesn't allow __NAME__ to make mistakes. I shall switch back to the fixed-timing adaptive mode before starting the new segment.\"\"\"\nLet's switch back to the fixed-timing adaptive mode, which is essential for sight-playing.",
+        "function_call": {
+            "name": "set_haptic_mode",
+            "arguments": "{\n  \"mode\": \"fixed-tempo adaptive\"\n}"
+        }
+    },
+    {
+        "role": "assistant",
+        "content": "\"\"\"I shall start a Practice Session.\"\"\"\nAlright. the haptic gloves will only correct your mistakes. Try to get as many notes right as you can.",
+        "function_call": {
+            "name": "start_session",
+            "arguments": "{}"
+        }
+    },
+    {
+        "role": "assistant",
+        "content": "\"\"\"I shall wait for __NAME__'s performance.\"\"\"",
+        "function_call": {
+            "name": "wait",
+            "arguments": "{}"
+        }
+    },
+    {
+        "role": "user",
+        "content": "In the middle of the Practice Session, __NAME__ says: \"Wait, what mode is this?\""
+    },
+    {
+        "role": "assistant",
+        "content": "\"\"\"__NAME__ is speaking during the Session, meaning they want to stop the interactions with Music X Machine. I shall stop the Session for __NAME__.\"\"\"\n",
+        "function_call": {
+            "name": "interrupt_session",
+            "arguments": "{}"
+        }
+    },
+    {
+        "role": "assistant",
+        "content": "\"\"\"__NAME__ is asking about the current mode. I shall explain the fixed-timing adaptive mode to __NAME__.\"\"\"\nWe're currently using the fixed-timing adaptive mode, __NAME__. Are you ready to continue?",
+        "function_call": {
+            "name": "wait",
+            "arguments": "{}"
+        }
+    },
+    {
+        "role": "user",
+        "content": "__NAME__ says: \"Can I use the force mode first? It was quite nice.\""
+    },
+    {
+        "role": "assistant",
+        "content": "\"\"\"__NAME__ wants to use the force mode. To decide whether to agree, I need to know why __NAME__ wants the force mode. I shall ask __NAME__.\"\"\"\nSure, __NAME__. Can you tell me why you prefer the force mode at the moment?",
+        "function_call": {
+            "name": "wait",
+            "arguments": "{}"
+        }
+    },
+    {
+        "role": "user",
+        "content": "__NAME__ says: \"Well, I can just relax, and the gloves will show me everything.\""
+    },
+    {
+        "role": "assistant",
+        "content": "\"\"\"__NAME__ wants to use the force mode to let the gloves do all the work. This is not educationally advantageous. I shall explain the importance of active learning to __NAME__.\"\"\"\nI see your point, __NAME__. However, while the force mode can indeed guide you through the song, the goal of our practice is to help you learn to play on your own. You can't truly learn if you're not actively trying. The fixed-timing adaptive mode provides a balance between gui__NAME__ce and freedom. Can we proceed with that mode?",
+        "function_call": {
+            "name": "wait",
+            "arguments": "{}"
+        }
+    },
+    {
+        "role": "user",
+        "content": "__NAME__ says: \"Right, I understand now.\""
+    },
+    {
+        "role": "assistant",
+        "content": "\"\"\"I shall remind __NAME__ that we have the visual KR feedback on, which can help __NAME__ with sight-playing.\"\"\"\nRemember, __NAME__, we have the visual KR feedback on. You can see your performance reflected on the score in real time. This can help you understand how the notes you're playing correspond to the music sheet. Let's continue with the Practice Session.",
+        "function_call": {
+            "name": "start_session",
+            "arguments": "{}"
+        }
+    },
+    {
+        "role": "assistant",
+        "content": "\"\"\"I shall wait for __NAME__'s performance.\"\"\"",
+        "function_call": {
+            "name": "wait",
+            "arguments": "{}"
+        }
+    },
+    {
+        "role": "user",
+        "content": "__NAME__ just played bar 5 to bar 8. Disregarding note timing, 4-bar note accuracy is 100%. Considering note timing, 4-bar note accuracy is 92%. __NAME__ has finished the current selected segment, so the Practice Session has stopped."
+    },
+    {
+        "role": "assistant",
+        "content": "\"\"\"__NAME__ has done well. I shall praise __NAME__ and then suggest moving on.\"\"\"\nThat was excellent, __NAME__! You got all the notes correct and your timing was nearly perfect. Now, let's move on to the next 4 bars of the song. Are you ready?",
+        "function_call": {
+            "name": "select_segment",
+            "arguments": "{\n  \"segment_begin\": 9,\n  \"segment_end\": 12\n}"
+        }
+    },
+    {
+        "role": "assistant",
+        "content": null,
+        "function_call": {
+            "name": "wait",
+            "arguments": "{}"
+        }
+    },
+    {
+        "role": "user",
+        "content": "__NAME__ says: \"Wait, can I set the tempo to the original one?\""
+    },
+    {
+        "role": "assistant",
+        "content": "\"\"\"__NAME__ wants to speed back up. I shall first agree with __NAME__ and then set the tempo.\"\"\"\nSure, __NAME__. Let's set the tempo back to 100% of the original.",
+        "function_call": {
+            "name": "modify_tempo",
+            "arguments": "{\n  \"tempo_multiplier\": 100\n}"
+        }
+    },
+    {
+        "role": "assistant",
+        "content": "\"\"\"I shall start a Practice Session.\"\"\"\nHere it goes.",
+        "function_call": {
+            "name": "start_session",
+            "arguments": "{}"
+        }
+    },
+    {
+        "role": "assistant",
+        "content": "\"\"\"I shall wait for __NAME__'s performance.\"\"\"",
+        "function_call": {
+            "name": "wait",
+            "arguments": "{}"
+        }
+    }
+]

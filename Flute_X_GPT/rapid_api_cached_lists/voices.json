@@ -1,0 +1,179 @@
+{
+  "id": 111,
+  "language": "English (US)",
+  "voice_type": "Standard",
+  "language_code": "en-US",
+  "voice_name": "en-US-Standard-A",
+  "ssml_gender": "MALE"
+},
+
+{
+  "id": 112,
+  "language": "English (US)",
+  "voice_type": "Standard",
+  "language_code": "en-US",
+  "voice_name": "en-US-Standard-A",
+  "ssml_gender": "MALE"
+},
+
+{
+  "id": 113,
+  "language": "English (US)",
+  "voice_type": "Standard",
+  "language_code": "en-US",
+  "voice_name": "en-US-Standard-B",
+  "ssml_gender": "MALE"
+},
+
+{
+  "id": 114,
+  "language": "English (US)",
+  "voice_type": "Standard",
+  "language_code": "en-US",
+  "voice_name": "en-US-Standard-B",
+  "ssml_gender": "MALE"
+},
+
+{
+  "id": 115,
+  "language": "English (US)",
+  "voice_type": "Standard",
+  "language_code": "en-US",
+  "voice_name": "en-US-Standard-C",
+  "ssml_gender": "FEMALE"
+},
+
+{
+  "id": 116,
+  "language": "English (US)",
+  "voice_type": "Standard",
+  "language_code": "en-US",
+  "voice_name": "en-US-Standard-C",
+  "ssml_gender": "FEMALE"
+},
+
+{
+  "id": 117,
+  "language": "English (US)",
+  "voice_type": "Standard",
+  "language_code": "en-US",
+  "voice_name": "en-US-Standard-D",
+  "ssml_gender": "MALE"
+},
+
+{
+  "id": 118,
+  "language": "English (US)",
+  "voice_type": "Standard",
+  "language_code": "en-US",
+  "voice_name": "en-US-Standard-D",
+  "ssml_gender": "MALE"
+},
+
+{
+  "id": 119,
+  "language": "English (US)",
+  "voice_type": "Standard",
+  "language_code": "en-US",
+  "voice_name": "en-US-Standard-E",
+  "ssml_gender": "FEMALE"
+},
+
+{
+  "id": 120,
+  "language": "English (US)",
+  "voice_type": "Standard",
+  "language_code": "en-US",
+  "voice_name": "en-US-Standard-E",
+  "ssml_gender": "FEMALE"
+},
+
+{
+  "id": 121,
+  "language": "English (US)",
+  "voice_type": "Standard",
+  "language_code": "en-US",
+  "voice_name": "en-US-Standard-F",
+  "ssml_gender": "FEMALE"
+},
+
+{
+  "id": 122,
+  "language": "English (US)",
+  "voice_type": "Standard",
+  "language_code": "en-US",
+  "voice_name": "en-US-Standard-F",
+  "ssml_gender": "FEMALE"
+},
+
+{
+  "id": 123,
+  "language": "English (US)",
+  "voice_type": "Standard",
+  "language_code": "en-US",
+  "voice_name": "en-US-Standard-G",
+  "ssml_gender": "FEMALE"
+},
+
+{
+  "id": 124,
+  "language": "English (US)",
+  "voice_type": "Standard",
+  "language_code": "en-US",
+  "voice_name": "en-US-Standard-G",
+  "ssml_gender": "FEMALE"
+},
+
+{
+  "id": 125,
+  "language": "English (US)",
+  "voice_type": "Standard",
+  "language_code": "en-US",
+  "voice_name": "en-US-Standard-H",
+  "ssml_gender": "FEMALE"
+},
+
+{
+  "id": 126,
+  "language": "English (US)",
+  "voice_type": "Standard",
+  "language_code": "en-US",
+  "voice_name": "en-US-Standard-H",
+  "ssml_gender": "FEMALE"
+},
+
+{
+  "id": 127,
+  "language": "English (US)",
+  "voice_type": "Standard",
+  "language_code": "en-US",
+  "voice_name": "en-US-Standard-I",
+  "ssml_gender": "MALE"
+},
+
+{
+  "id": 128,
+  "language": "English (US)",
+  "voice_type": "Standard",
+  "language_code": "en-US",
+  "voice_name": "en-US-Standard-I",
+  "ssml_gender": "MALE"
+},
+
+{
+  "id": 129,
+  "language": "English (US)",
+  "voice_type": "Standard",
+  "language_code": "en-US",
+  "voice_name": "en-US-Standard-J",
+  "ssml_gender": "MALE"
+},
+
+{
+  "id": 130,
+  "language": "English (US)",
+  "voice_type": "Standard",
+  "language_code": "en-US",
+  "voice_name": "en-US-Standard-J",
+  "ssml_gender": "MALE"
+},

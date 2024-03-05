@@ -1,0 +1,8 @@
+*.pyc
+*temp*.mp3
+*temp*.wav
+temp.bat
+FastSpeech2/
+PortaSpeech/
+speech_clips/
+beam_searched_chat.json

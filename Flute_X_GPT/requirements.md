@@ -1,0 +1,7 @@
+- `pip install -r ./requirements.txt`
+- Install pytorch.
+- At "./FastSpeech2", place [https://github.com/Daniel-Chin/FastSpeech2](https://github.com/Daniel-Chin/FastSpeech2)  
+    - create "./FastSpeech2/output/ckpt/LJSpeech/"
+    - create "./FastSpeech2/output/result/LJSpeech"
+    - Download the model LJSpeech checkpoint (hopefully mentioned in [readme](./FastSpeech2/README.md)) into "./FastSpeech2/output/ckpt/LJSpeech/"
+    - Unzip the hifigan checkpoints.  

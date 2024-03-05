@@ -1,0 +1,2 @@
+pause
+del .\*.wav
