@@ -5,7 +5,7 @@
  This work is licensed under the Apache License, Version 2.0, January 2004
  See the file LICENSE for details.
 
- Minor modifications by ANONYMOUS.  
+ Minor modifications by Daniel Chin.  
  - double literals changed to float. 
  - misc. 
  */
