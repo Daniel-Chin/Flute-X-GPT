@@ -14,7 +14,8 @@ This repo contains three components:
 To reproduce Flute X GPT, you need to follow these steps.  
 
 ## Fabricate hardware
-Follow https://github.com/Daniel-Chin/A-V-H-General-Music-Tutoring-2022/tree/main/hardware
+- Follow https://github.com/Daniel-Chin/A-V-H-General-Music-Tutoring-2022/tree/main/hardware
+  - Note that this guide is outdated, describing a prototype with Arduino Nano. We migrated from that to ESP32. A latest guide will be published after the new design is finalized. 
 
 ## Use a wifi environment
 The three ESP32 chips and the host PC needs to be in the same LAN. You can use a wifi / hotspot with compatible security protocols. 
