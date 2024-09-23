@@ -1,5 +1,11 @@
 # Flute X GPT
 
+This repo is the source code of the systems and interfaces described in ["Human-Centered LLM-Agent User Interface: A Position Paper"](https://www.arxiv.org/abs/2405.13050).  
+
+## Abstract
+Large Language Model (LLM) -in-the-loop applications have been shown to effectively interpret the human user's commands, make plans, and operate external tools/systems accordingly. Still, the operation scope of the LLM agent is limited to passively following the user, requiring the user to frame his/her needs with regard to the underlying tools/systems. We note that the potential of an LLM-Agent User Interface (LAUI) is much greater. A user mostly ignorant to the underlying tools/systems should be able to work with a LAUI to discover an emergent workflow. Contrary to the conventional way of designing an explorable GUI to teach the user a predefined set of ways to use the system, in the ideal LAUI, the LLM agent is initialized to be proficient with the system, proactively studies the user and his/her needs, and proposes new interaction schemes to the user. To illustrate LAUI, we present Flute X GPT, a concrete example using an LLM agent, a prompt manager, and a flute-tutoring multi-modal software-hardware system to facilitate the complex, real-time user experience of learning to play the flute. 
+
+## Repo overview
 This repo contains three components: 
 - "esp32". This program directly controls all hardware parts, including the gloves and the flute. 
 - "Flute_X_GPT". The LLM agent with its prompt manager. 
@@ -36,3 +42,16 @@ The three ESP32 chips and the host PC needs to be in the same LAN. You can use a
 Power the three hardware parts, start proc, and start the LLM agent.  
 
 If you encounter any issues, please open an issue in this repo. Thank you! 
+
+## BibTex
+````bib
+@misc{chin2024humancenteredllmagentuserinterface,
+    title={Human-Centered LLM-Agent User Interface: A Position Paper}, 
+    author={Daniel Chin and Yuxuan Wang and Gus Xia},
+    year={2024},
+    eprint={2405.13050},
+    archivePrefix={arXiv},
+    primaryClass={cs.HC},
+    url={https://arxiv.org/abs/2405.13050}, 
+}
+````
